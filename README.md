@@ -21,7 +21,7 @@ Esta página web fue creada como parte de una tarea para la clase de Diseño Web
 
 # Cómo ver la página
 
-1. Descarga el proyecto (o clónalo desde GitHub si está en un repositorio).
+1. Descarga el proyecto (o clónalo desde GitHub).
 2. Abre el archivo `index.html` con tu navegador.
 3. Navega entre las páginas usando los enlaces disponibles.
 
