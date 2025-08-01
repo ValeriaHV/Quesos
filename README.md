@@ -2,7 +2,7 @@
 
 # Propósito del proyecto
 
-Esta página web fue creada como parte de una tarea para la clase de Diseño Web. El propósito es presentar información sobre distintos tipos de queso de forma clara, organizada y accesible, aplicando buenas prácticas de HTML5 semántico y accesibilidad.
+Esta página web fue creada como parte de una tarea para la clase de Diseño Web. El propósito es presentar información sobre distintos tipos de queso de forma clara y organizada, aplicando buenas prácticas de HTML5 semántico y accesibilidad.
 
 # Estructura del proyecto
 
@@ -11,9 +11,9 @@ Esta página web fue creada como parte de una tarea para la clase de Diseño Web
 - `estilo.css`: Hoja de estilos externa compartida entre las páginas.
 - `assets/`: Carpeta que contiene imágenes usadas en la página (`cheddar.webp`, `brie.webp`, `camembert.jpg`, `gouda.jpg`, `emmental.jpg`.).
 
-# Semántica y accesibilidad aplicadas
+# Semántica y accesibilidad
 
-- Se utilizaron etiquetas semánticas como `<header>`, `<main>`, `<section>`, `<article>`, `<footer>`, `<h1>`–`<h2>`, etc., para estructurar la información correctamente.
+- Se utilizaron etiquetas semánticas como `<header>`, `<main>`, `<section>`, `<footer>`, `<h1>`–`<h2>`, etc., para estructurar la información correctamente.
 - Se incluyeron atributos `alt` en todas las imágenes para usuarios con lectores de pantalla.
 - Los enlaces (`<a>`) son descriptivos y permiten regresar fácilmente al menú.
 - La navegación puede hacerse con teclado (usando `Tab`) gracias a elementos enfocados correctamente.
