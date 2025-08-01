@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Quesos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            margin-top: 40px;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.2em;
+        }
+        nav {
+            margin-bottom: 30px;
+        }
+        ul.cheese-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+        }
+        ul.cheese-list li {
+            background: #232323;
+            border-radius: 8px;
+            padding: 18px 32px;
+            width: 320px;
+            text-align: center;
+            transition: background 0.2s;
+        }
+        ul.cheese-list li:hover {
+            background: #333;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #ffcb05;
+        }
+        footer {
+            margin-top: auto;
+            padding: 20px 0;
+            text-align: center;
+            color: #bbb;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quesos</h1>
+        <p>Diferentes tipos de quesos y sus características.</p>
+    </header>
+    <nav>
+        <ul class="cheese-list">
+            <li><a href="camembert.html">Queso Camembert</a></li>
+            <li><a href="gouda.html">Queso Gouda</a></li>
+            <li><a href="emmental.html">Queso Emmental</a></li>
+            <li><a href="brie.html">Queso Brie</a></li>
+            <li><a href="cheddar.html">Queso Cheddar</a></li>
+        </ul>
+    </nav>
+    <footer>
+        &copy; 2025 - Quesos - Valeria Hernández Vargas
+    </footer>
+</body>
+</html>
