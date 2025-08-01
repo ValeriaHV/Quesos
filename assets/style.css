@@ -1,0 +1,99 @@
+
+/* Pagina principal */
+body {
+            background: #181818; /* Fondo oscuro. Contraste con texto blanco y accesibilidad visual */
+            color: #fff; /* Texto blanco para contraste con fondo oscuro */
+            font-family: 'Segoe UI', Arial, sans-serif; /* Tipografía, facil de leer */
+            margin: 0;
+            min-height: 100vh; /* El cuerpo ocupa toda la altura de la ventana */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centra el contenido en horizontal */
+        }
+        /* Encabezado principal */
+        header {
+            margin-top: 40px;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+        /* Título principal */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.2em;
+        }
+        /* Lista de enlaces a otras páginas */
+        nav {
+            margin-bottom: 30px;
+        }
+        ul.cheese-list {
+            list-style: none; /* Elimina los puntos de lista */
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 16px; /* Espacio entre elementos */
+            align-items: center;
+        }
+        ul.cheese-list li {
+            background: #232323;
+            border-radius: 8px; /* Bordes redondeados */
+            padding: 18px 32px;
+            width: 320px;
+            text-align: center;
+            transition: background 0.2s; /* Transición al hacer hover */
+        }
+        /* Cambio de color al pasar el mouse para mejora visual */
+        ul.cheese-list li:hover {
+            background: #333;
+        }
+        a {
+            color: #fff;
+            text-decoration: none; /* Sin subrayado */
+            font-size: 1.3em;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        /* Color del enlace al pasar el cursor */
+        a:hover {
+            color: #ffcb05;
+        }
+        /* Selección de enlaces cuando se navega con teclado */
+        a:focus {
+            outline: 2px solid #ffcb05; /* Borde visible cuando se selecciona */
+            outline-offset: 4px; /* Separación entre el borde y el enlace */
+            background-color: #333; /* Cambia fondo */
+        }
+        /* Pie de página */
+        footer {
+            margin-top: auto; /* Se ubica abajo cuando hay poco contenido */
+            padding: 20px 0;
+            text-align: center;
+            color: #bbb;
+            font-size: 1em;
+        }
+
+        /* Paginas secundarias */
+
+        /* Contenedor que límita el contenido */
+        .container {
+            max-width: 650px;
+            margin: 40px auto 0 auto;
+            text-align: center;
+        }
+        img {
+            max-width: 320px;
+            border-radius: 12px; 
+            margin-bottom: 24px; /* Borde entre la imagen y el texto. Define espacio para mejora visual */
+            box-shadow: 0 2px 12px #0008; /* Sombra a la imagen para profundidad */
+        }
+        .section-title {
+            color: #ffcb05;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        .back-link {
+            color: #ffcb05;
+            text-decoration: none;
+            margin-top: 30px;
+            display: inline-block;
+        }
