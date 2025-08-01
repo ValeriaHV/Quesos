@@ -21,6 +21,24 @@ body {
             font-size: 2.5rem;
             margin-bottom: 0.2em;
         }
+        /* Título secundario */
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.2em;
+        }
+        /* Sección principal */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 700px;
+        }
+        section {
+            margin-bottom: 32px;
+            text-align: center;
+        }
         /* Lista de enlaces a otras páginas */
         nav {
             margin-bottom: 30px;
@@ -97,3 +115,4 @@ body {
             margin-top: 30px;
             display: inline-block;
         }
+
